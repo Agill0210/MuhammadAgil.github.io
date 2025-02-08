@@ -1,47 +1,83 @@
 # MuhammadAgil.github.io
-PERANCANGAN SISTEM INFORMASI PETERNAKAN BURUNG PUYUH BERBASIS WEB
-Analisis Kebutuhan
+Untuk link database : https://drive.google.com/drive/folders/1uBeivscVKK9RTfNzB9IB9jodCC9GNocp?usp=drive_link
 
-1. Identifikasi kebutuhan pengguna (konsumen dan pemilik usaha) untuk menentukan fitur yang diperlukan, seperti manajemen stok,   pemesanan, sistem pembayaran, dan pelaporan.
-Perancangan Sistem
+🐦 Aplikasi Puyuh
 
-2. Buat diagram alur untuk menggambarkan proses aplikasi, termasuk alur pemesanan dan pengelolaan stok.
-Rancang antarmuka pengguna (UI) menggunakan wireframe atau mockup untuk memastikan pengalaman pengguna yang intuitif dan menarik.
-Pemilihan Teknologi
+📜 Deskripsi
 
-3. Pilih teknologi yang akan digunakan untuk pengembangan aplikasi web, seperti:
-Frontend: HTML, CSS, JavaScript, dan framework seperti React, Angular, atau Vue.js.
-Backend: Node.js, Express, atau PHP dengan framework seperti Laravel.
-Database: MySQL, PostgreSQL, atau MongoDB.
-Pengembangan Backend
+Aplikasi Puyuh adalah sebuah sistem berbasis web yang dikembangkan menggunakan PHP, HTML, dan CSS dengan database MySQL yang dijalankan melalui XAMPP. Aplikasi ini dirancang untuk membantu dalam pengelolaan dan pemantauan usaha ternak burung puyuh.
 
-4. Buat server backend untuk menangani logika aplikasi, pengelolaan database, dan API untuk komunikasi antara frontend dan backend.
-Implementasikan sistem autentikasi untuk pengguna dan admin, termasuk pendaftaran dan login.
-Pengembangan Frontend
+✨ Fitur Utama
 
-5. Kembangkan antarmuka pengguna berdasarkan desain yang telah dibuat.
-Pastikan aplikasi responsif dan dapat diakses di berbagai perangkat (desktop, tablet, dan smartphone).
-Implementasikan fitur-fitur seperti daftar produk, keranjang belanja, dan halaman checkout.
-Integrasi Sistem Pembayaran
+📊 Manajemen data burung puyuh
 
-6. Pilih dan integrasikan sistem pembayaran yang aman, seperti transfer bank atau gateway pembayaran (misalnya, Midtrans, Stripe).
-Pastikan bahwa transaksi aman dan data pengguna terlindungi dengan menggunakan protokol HTTPS.
-Pengujian Aplikasi
+🏥 Monitoring kesehatan dan produksi telur
 
-7. Lakukan pengujian fungsional untuk memastikan semua fitur berfungsi dengan baik.
-Uji aplikasi di berbagai perangkat dan browser untuk memastikan kompatibilitas.
-Lakukan pengujian keamanan untuk melindungi data pengguna dan transaksi.
-Peluncuran Aplikasi
+🍽️ Manajemen stok pakan dan kebutuhan ternak
 
-8. Siapkan server hosting untuk aplikasi web, seperti menggunakan layanan cloud (misalnya, AWS, Heroku, atau DigitalOcean).
-Lakukan deployment aplikasi ke server dan pastikan semua konfigurasi berjalan dengan baik.
-Pemeliharaan dan Pembaruan
+📈 Laporan berkala mengenai produksi dan pengeluaran
 
-9. Monitor kinerja aplikasi dan tanggapi umpan balik pengguna.
-Lakukan pembaruan berkala untuk menambah fitur baru, memperbaiki bug, dan meningkatkan keamanan.
-Pemasaran dan Promosi
+🛠 Teknologi yang Digunakan
 
-10. Buat strategi pemasaran untuk mempromosikan aplikasi kepada calon pengguna.
-Gunakan media sosial, iklan online, dan konten pemasaran untuk meningkatkan visibilitas aplikasi.
+💻 Bahasa Pemrograman: PHP, HTML, CSS
 
-  Dengan mengikuti langkah-langkah ini, Anda dapat mengembangkan aplikasi web berbasis penjualan telur puyuh yang efektif, efisien, dan bermanfaat bagi pengguna serta pemilik usaha.
+🗄 Database: MySQL
+
+🖥 Server Lokal: XAMPP
+
+🚀 Instalasi
+
+📥 Unduh & Instal XAMPP
+
+Jika belum memiliki XAMPP, unduh dan instal dari Apache Friends.
+
+📂 Pindahkan Proyek ke Direktori XAMPP
+
+Pindahkan folder proyek ke dalam folder htdocs di dalam direktori XAMPP.
+
+🛢 Konfigurasi Database
+
+Jalankan XAMPP dan nyalakan Apache serta MySQL.
+
+Buka http://localhost/phpmyadmin di browser.
+
+Buat database baru (misalnya puyuh_db).
+
+Impor file SQL yang ada di folder database/ ke dalam database.
+
+⚙️ Konfigurasi Koneksi Database
+
+Buka file config.php atau file konfigurasi database lainnya.
+
+Sesuaikan pengaturan berikut dengan kredensial MySQL Anda:
+
+$host = "localhost";
+$user = "root";
+$password = "";
+$database = "puyuh_db";
+
+🌍 Jalankan Aplikasi
+
+Buka browser dan akses:
+
+http://localhost/nama_folder_proyek/
+
+📂 Struktur Folder
+
+/repository
+├── /assets        # 🎨 Berisi file CSS, JavaScript, dan gambar
+├── /database      # 🗄 Berisi file SQL untuk database
+├── /includes      # 🔧 Berisi file koneksi dan konfigurasi
+├── /pages         # 📄 Berisi halaman utama aplikasi
+├── index.php      # 🏠 Beranda aplikasi
+└── config.php     # 🔑 Konfigurasi koneksi database
+
+🤝 Kontribusi
+
+Jika ingin berkontribusi, silakan fork repository ini dan buat pull request dengan perubahan yang diusulkan.
+
+📜 Lisensi
+
+Aplikasi ini menggunakan lisensi MIT.
+
+📌 Catatan: Jika ada kendala atau pertanyaan, silakan buat issue di repository ini atau hubungi saya.
